@@ -57,4 +57,14 @@ public class Spot
     {
         this.assignedTicket = assignedTicket;
     }
+
+    @Override
+    public String toString() {
+        return "Spot{" +
+                "isAvailable=" + isAvailable +
+                ", spotSize=" + spotSize +
+                ", spotNumber=" + spotNumber +
+                ", assignedTicket=" + assignedTicket +
+                '}';
+    }
 }

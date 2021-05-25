@@ -39,4 +39,13 @@ public class Ticket
     {
         this.assignedVehicle = assignedVehicle;
     }
+
+    @Override
+    public String toString() {
+        return "Ticket{" +
+                "startTime='" + startTime + '\'' +
+                ", endTime='" + endTime + '\'' +
+                ", assignedVehicle=" + assignedVehicle +
+                '}';
+    }
 }

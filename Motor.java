@@ -1,6 +1,6 @@
 public class Motor extends Vehicle
 {
-    public final double discount = 0.2;
+    public final double discount = 0.8;
 
     public Motor(String color, String plate)
     {
@@ -10,5 +10,12 @@ public class Motor extends Vehicle
     public double getDiscount()
     {
         return discount;
+    }
+
+    @Override
+    public String toString() {
+        return "Motor{" + super.toString() +
+                " discount=" + discount +
+                '}';
     }
 }

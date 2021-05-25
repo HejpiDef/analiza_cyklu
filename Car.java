@@ -29,4 +29,12 @@ public class Car extends Vehicle
     {
         this.LPG = LPG;
     }
+
+    @Override
+    public String toString() {
+        return "Car{" + super.toString() +
+                " engineDisplacement=" + engineDisplacement +
+                ", LPG=" + LPG +
+                '}';
+    }
 }

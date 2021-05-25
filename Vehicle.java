@@ -52,4 +52,12 @@ public class Vehicle
     {
         this.vehicleSize = vehicleSize;
     }
+
+    @Override
+    public String toString() {
+        return  "color='" + color + '\'' +
+                ", plate='" + plate + '\'' +
+                ", typ='" + typ + '\'' +
+                ", vehicleSize=" + vehicleSize;
+    }
 }
